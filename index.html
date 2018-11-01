@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Habibi|Kite+One" rel="stylesheet">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+
+<body class="">
+    <header class="blue">
+        <div class="header-div">
+            <h1 class="center-align blue" id="title">Wilsonromero.design</h1>
+            <p class="blue" id="description">Give us your feedback</p>
+        </div>
+    </header>
+    <main class="main-container">
+        <form action="" id="survey-form">
+            <p id="instructions">Please provide the requiered fields bellow.</p>
+            <hr> <br>
+            <div class="inputcontainer">
+                <label for="name" id="name-label">Name</label>
+                <input name="name" id="name" type="text" placeholder="Your name here" required autocomplete="no">
+            </div>
+            <div class="inputcontainer">
+                <label for="lastname" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="example@example.com" required autocomplete="No">
+            </div>
+            <div class="inputcontainer">
+                <label for="age" id="number-label">Age</label>
+                <input type="number" id="number" min="14" max="100" placeholder="Your age here" required autocomplete="no">
+            </div>
+            <div class="inputcontainer">
+                <label for="referalsource">How did you hear from us?</label>
+                <select name="referalsource" id="dropdown" required>
+                    <option value="" disabled selected style="color: rgba(0, 0, 0, 0.5)">Choose an option</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Advertisement">Advertisement</option>
+                    <option value="Friend">Friend</option>
+                </select>
+            </div>
+            <div class="inputcontainer">
+                <label for="">How would your define our work?</label>
+                <div id="secondcolumn">
+                    <label for="Amazing"><input type="radio" name="pleased" id="Amazing" value="5" required> Excelent</label>
+                    <label for="Good"><input type="radio" name="pleased" id="Good" value="4"> Good</label>
+                    <label for="Regular"><input type="radio" name="pleased" id="Regular" value="3"> Average</label>
+                    <label for="Bad"><input type="radio" name="pleased" id="Bad" value="2"> Fair</label>
+                    <label for="TooBad"><input type="radio" name="pleased" id="TooBad" value="1"> Poor</label>
+                </div>
+            </div>
+
+            <div class="inputcontainer">
+                <label class="description">What can we improve in the future?</label>
+                <div id="secondcolumn">
+
+                    <label for="uiux"> <input type="checkbox" name="whatlike" id="uiux" value="uiux" required> UI/UX
+                        design</label>
+                    <label for="performance"> <input type="checkbox" name="whatlike" id="performance" value="performance">
+                        Website performance</label>
+                    <label for="secutiry"> <input type="checkbox" name="whatlike" id="secutiry" value="security">
+                        Security</label>
+                    <label for="pd"> <input type="checkbox" name="whatlike" id="pd" value="projectDocumentation">
+                        Project
+                        Documentation</label>
+                    <label for="deadline"> <input type="checkbox" name="whatlike" id="deadline" value="deadline">
+                        Deadline</label>
+                    <label for="cs"> <input type="checkbox" name="whatlike" id="cs" value="customerService"> Customer
+                        service</label>
+                    <label for="price"> <input type="checkbox" name="whatlike" id="price" value="Price"> Price</label>
+                </div>
+            </div>
+
+            <div class="inputcontainer">
+                <label for="comment" class="description"> Any question, sugestion or comment?</label>
+                <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            </div> <br>
+            <div class="inputcontainer">
+                <div style=" display: flex; justify-content: center; width: 100%;">
+                    <input type="submit" value="Submit" id="submit" style="align-self: center;">
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="footertext">Coded by <a href="https://www.wilsonromero.design/" target="_blank">wilsoft-gt</a> | View
+            code <a href="https://codepen.io/wilsoft-gt/pen/wypzbr" target="_blank"><i class="fa fa-codepen"></i></a>
+            <a href="https://github.com/wilsoft-gt/weatherapp"><i class="fa fa-github"></i></a></p>
+
+    </footer>
+
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
