@@ -91,6 +91,12 @@ footer a {
     font-size: 1em;
 }
 
+sup {
+    color: var(--error-color);
+    margin: 0;
+    padding: 0;
+}
+
 @media(min-width: 700px) {
     body {
         grid-template-columns: 0.4fr 1.5fr 0.4fr; 
