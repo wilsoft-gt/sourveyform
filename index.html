@@ -12,29 +12,41 @@
     </style>
 </head>
 
-<body class="">
+<body>
+
+    <!-- header with title and litle description -->
     <header class="blue">
         <div class="header-div">
             <h1 class="center-align blue" id="title">Wilsonromero.design</h1>
             <p class="blue" id="description">Give us your feedback</p>
         </div>
     </header>
+
+    <!-- main container for the sourvey form -->
     <main class="main-container">
         <form action="" id="survey-form">
             <p id="instructions">Please provide the requiered fields bellow.</p>
             <hr> <br>
+
+            <!-- Name field and label -->
             <div class="inputcontainer">
                 <label for="name" id="name-label">Name</label>
                 <input name="name" id="name" type="text" placeholder="Your name here" required autocomplete="no">
             </div>
+
+            <!-- email field and label -->
             <div class="inputcontainer">
-                <label for="lastname" id="email-label">Email</label>
+                <label for="email" id="email-label">Email</label>
                 <input type="email" id="email" placeholder="example@example.com" required autocomplete="No">
             </div>
+
+            <!-- age field and label -->
             <div class="inputcontainer">
                 <label for="age" id="number-label">Age</label>
                 <input type="number" id="number" min="14" max="100" placeholder="Your age here" required autocomplete="no">
             </div>
+
+            <!-- select field and label -->
             <div class="inputcontainer">
                 <label for="referalsource">How did you hear from us?</label>
                 <select name="referalsource" id="dropdown" required>
@@ -46,6 +58,8 @@
                     <option value="Friend">Friend</option>
                 </select>
             </div>
+
+            <!-- radio fields and lables -->
             <div class="inputcontainer">
                 <label for="">How would your define our work?</label>
                 <div id="secondcolumn">
@@ -57,11 +71,12 @@
                 </div>
             </div>
 
+            <!-- checkboxes and lables -->
             <div class="inputcontainer">
                 <label class="description">What can we improve in the future?</label>
                 <div id="secondcolumn">
 
-                    <label for="uiux"> <input type="checkbox" name="whatlike" id="uiux" value="uiux" required> UI/UX
+                    <label for="uiux"> <input type="checkbox" name="whatlike" id="uiux" value="uiux"> UI/UX
                         design</label>
                     <label for="performance"> <input type="checkbox" name="whatlike" id="performance" value="performance">
                         Website performance</label>
@@ -78,10 +93,13 @@
                 </div>
             </div>
 
+            <!-- textarea field and label -->
             <div class="inputcontainer">
                 <label for="comment" class="description"> Any question, sugestion or comment?</label>
                 <textarea name="comment" id="" cols="30" rows="10"></textarea>
             </div> <br>
+
+            <!-- submit form -->
             <div class="inputcontainer">
                 <div style=" display: flex; justify-content: center; width: 100%;">
                     <input type="submit" value="Submit" id="submit" style="align-self: center;">
@@ -89,6 +107,8 @@
             </div>
         </form>
     </main>
+
+    <!-- foother with developer name and some links -->
     <footer>
         <p class="footertext">Coded by <a href="https://www.wilsonromero.design/" target="_blank">wilsoft-gt</a> | View
             code <a href="https://codepen.io/wilsoft-gt/full/ReXLom/" target="_blank"><i class="fa fa-codepen"></i></a>
@@ -98,6 +118,7 @@
 
 
 </body>
+<!-- free codecamp pass test -->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>
